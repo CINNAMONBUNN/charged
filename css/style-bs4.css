@@ -17,3 +17,6 @@ input[type="color"]:focus,
   box-shadow: 0 0 0 0;
   outline: 0 none;
 }
+.carousel-inner {
+	border-radius: 15px;
+}

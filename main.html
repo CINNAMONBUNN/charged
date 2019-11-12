@@ -14,7 +14,7 @@
 <body>
     <section class="container-fluid header-wrapper p-0 d-flex justify-content-center">
         <header class="header pt-5">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg p-0">
                 <a class="navbar-brand" href="main.html">
                     <img src="icons/battery 1.svg" alt="Charged">
                     <img src="icons/Charged.svg" alt="Charged" class="mt-2 ml-1">
@@ -46,15 +46,11 @@
                 </div>
             </nav>
             <div class="row d-flex justify-content-between">
-
-
                 <div class="col">
                     <p class="header-text-main">Вступай в ряды лучших и стань примером</p>
                     <p class="header-text">Вступайте в начинающий, но уже набирающий обороты клан. С каждым днем мы становимся сильнее и тебе решать станешь ли ты чемпионом</p>
                     <button class="header-btn btn">Подать заявку</button>
                 </div>
-
-
                 <div class="col">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -78,12 +74,86 @@
             </div>
         </header>
     </section>
-    <section class="team">
-        
-    </section>
-    <div class="down-item d-flex justify-content-center align-items-center m-auto">
-        <img src="icons/Vector 1.svg" alt="down">
+    <div class="down-item-wrapper d-flex justify-content-center">
+        <div class="down-item d-flex justify-content-center align-items-center">
+            <img src="icons/Vector 1.svg" alt="down">
+        </div>
     </div>
+    <section class="team">
+        <div class="container-fluid">
+            <h2 class="font-weight-bold team-caption">Наша команда</h2>
+            <div class="row team-container">
+                <div class="col">
+                    <div class="team-item row d-flex justify-content-center">
+                        <div class="col-2 d-flex align-items-start">
+                            <img src="img/ava4.png" alt="avatar">
+                        </div>
+                        <div class="col-7">
+                            <p class="lead">Руслан Бондаренко</p>
+                            <p>Добрый, хороший, отзывчивый человек. Приятен во всем. Не зависимо от того как он играет, он сможет вытащить катку в нужный момент. За это ему лично и благодарны.</p>
+                            <div class="row team-roles-container pl-3">
+                                <div class="team-role team-role-pain">
+                                    <img src="icons/soldier 1.svg" alt="soldier" class="pain-img mr-1">
+                                    Майор Пейн
+                                </div>
+                                <div class="ml-3 team-role team-role-admin">Администратор</div>
+                                <img src="icons/more-horizontal.svg" alt="more" class="ml-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="team-item row d-flex justify-content-center">
+                        <div class="col-2 d-flex align-items-start">
+                            <img src="img/ava1.png" alt="avatar">
+                        </div>
+                        <div class="col-7">
+                            <p class="lead">Руслан Гительманов</p>
+                            <p>Пусть его статистика и не дает многое, за то отыгрывает прилично. Отличный штурмовик и хороший медик. Не горит, если проигрывает или плохо отыгрывает на статистику. Добрый и приятен в общении.</p>
+                            <div class="row team-roles-container pl-3">
+                                <div class="team-role team-role-leader">Глава</div>
+                                <div class="ml-3 team-role team-role-admin">Администратор</div>
+                                <img src="icons/more-horizontal.svg" alt="more" class="ml-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col">
+                    <div class="team-item row d-flex justify-content-center">
+                        <div class="col-2 d-flex align-items-start">
+                            <img src="img/ava3.png" alt="avatar">
+                        </div>
+                        <div class="col-7">
+                            <p class="lead">Егор Калашников</p>
+                            <p>Своеобразная личность. Никогда не знаешь, что от него ожидать. Хороший медик, настреливает в 1.0 и ресает под дымом. Да, может и бывает плох в игре, зато хорош в жизни.</p>
+                            <div class="row team-roles-container pl-3">
+                                <div class="team-role team-role-assistant">Зам. главы</div>
+                                <div class="ml-3 team-role team-role-admin">Администратор</div>
+                                <img src="icons/more-horizontal.svg" alt="more" class="ml-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="team-item row d-flex justify-content-center">
+                        <div class="col-2 d-flex align-items-start">
+                            <img src="img/ava2.png" alt="avatar">
+                        </div>
+                        <div class="col-7">
+                            <p class="lead">Роман Ушаков</p>
+                            <p>Довольно сильный игрок. Отличный инженер, даёт неплохие хеды и размены. Он очень хороший координатор и друг. Бывает дерзок с остальными, лишь потому что не любит проигрывать.</p>
+                            <div class="row team-roles-container pl-3">
+                                <div class="team-role team-role-caca">Цаца</div>
+                                <div class="ml-3 team-role team-role-admin">Администратор</div>
+                                <img src="icons/more-horizontal.svg" alt="more" class="ml-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
