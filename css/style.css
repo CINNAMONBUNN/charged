@@ -98,10 +98,13 @@ nav {
 }
 
 .team-container {
+	max-width: 1700px;
 	padding-top: 67px;
 }
 .team-caption {
-	margin-left: 100px;
+	margin-left: 115px;
+	margin-bottom: 70px;
+
 }
 .team-roles-container {
 	margin-top: 30px;
@@ -136,4 +139,17 @@ nav {
 .team-role-caca {
 	color: #9424C9;; 
 	border: 2px solid #9424C9;;	
+}
+
+.registration {
+	width: 100%;
+	color: #fff;
+	background: url(../img/footer2.png);
+	padding-top: 55px;
+}
+.registration-container {
+	padding-left: 140px;
+}
+.registration-caption {
+	margin-bottom: 80px;
 }
