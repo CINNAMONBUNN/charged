@@ -13,7 +13,8 @@ body {
 }
 
 input[type="text"],
-input[type="search"] {
+input[type="search"],
+select {
 	color: #E0E0E0;
     background: #202028;
     border: 0;
@@ -144,12 +145,54 @@ nav {
 .registration {
 	width: 100%;
 	color: #fff;
-	background: url(../img/footer2.png);
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/footer2.png), url(../img/footer.png);
+	background-repeat: no-repeat;
 	padding-top: 55px;
+	padding-bottom: 200px;
 }
 .registration-container {
-	padding-left: 140px;
+	max-width: 1900px;
+	padding-left: 145px;
 }
 .registration-caption {
 	margin-bottom: 80px;
+}
+.registration-form-item input[type = "text"] {
+	width: 550px;
+	height: 75px;
+	padding: 25px;
+	margin-bottom: 30px;
+}
+
+.registration-form-select-wrapper {
+	position: relative;
+	margin-bottom: 30px;
+}
+.registration-form-select {
+	cursor: pointer;
+	color: #908B8B;
+	width: 550px;
+	height: 75px;
+	padding: 25px;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.registration-form-select-wrapper:after {
+    content: url(../icons/chevron-bottom.svg);
+    position: absolute;
+    top: 35%;
+    right: 1.5rem;
+    z-index: 99;
+}
+
+.registration-btn {
+	width: 338px;
+	height: 75px;
+	color: #fff;
+	background: #C95724;
+	box-shadow: 0px 1px 20px #C95724;
+	margin-top: 42px;
 }

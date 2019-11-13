@@ -80,7 +80,7 @@
         </div>
     </div>
     <section class="team">
-        <div class="container-fluid d-flex justify-content-center">            
+        <div class="container-fluid d-flex justify-content-center">
             <div class="row team-container">
                 <h2 class="font-weight-bold team-caption">Наша команда</h2>
                 <div class="w-100"></div>
@@ -157,12 +157,51 @@
     </section>
     <section class="registration">
         <div class="container-fluid registration-container">
-            <h2 class="registration-caption">Оформление заявки в клан</h2>  
-            <div class="row registration-form">
-                <div class="col"></div>
-                <div class="col"></div>
-            </div>          
-        </div>        
+            <h2 class="registration-caption">Оформление заявки в клан</h2>
+            <form class="row registration-form">
+                <div class="col-5">
+                    <div class="registration-form-item">
+                        <label>
+                            <p>Ваш никнейм:</p>
+                            <input type="text" placeholder="Алеша432">
+                        </label>
+                    </div>
+                    <div class="registration-form-item">
+                        <label>
+                            <p>Ваш возраст:</p>
+                            <input type="text" placeholder="16+">
+                        </label>
+                    </div>
+                    <div class="registration-form-item">
+                        <label>
+                            <p>Ваш ранг в игре:</p>
+                            <input type="text" placeholder="50+">
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="registration-form-item">
+                        <label>
+                            <p>Какой у вас онлайн:</p>
+                            <div class="registration-form-select-wrapper">
+                                <select class="registration-form-select">                                    
+                                    <option value="#">Редкий (до 3 часов)</option>
+                                    <option value="#">Очень редкий (до 1 часа)</option>
+                                    <option value="#">Частый (от 3 часов)</option>
+                                </select>
+                            </div>
+                        </label>
+                    </div>
+                        <div class="registration-form-item">
+                        <label>
+                            <p>Ваш Discord:</p>
+                            <input type="text" placeholder="monashka#2548">
+                        </label>
+                    </div>
+                    <button class="registration-btn btn d-flex justify-content-center align-items-center">Отправить заявку</button>
+                </div>
+            </form>
+        </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
