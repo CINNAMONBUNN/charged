@@ -586,11 +586,9 @@ nav {
     }
 }
 
-@media screen and (max-width: 395px) {
-
+@media screen and (max-width: 335px) {
     .registration-form-item input,
     .registration-form-select {
         width: 300px !important;
-        height: 40px !important;
     }
 }

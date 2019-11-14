@@ -14,7 +14,9 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus,
-button:focus {   
+button:focus,
+.btn:focus,
+select:focus {   
   box-shadow: 0 0 0 0;
   outline: 0 none !important;
   border: 0 !important;
