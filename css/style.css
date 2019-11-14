@@ -6,11 +6,13 @@
 a {
     color: #fff;
 }
+
 html {
-	overflow-x: hidden;	
+    overflow-x: hidden;
 }
+
 body {
-	overflow-x: hidden;
+    overflow-x: hidden;
     background: #000;
     color: #fff;
 }
@@ -64,9 +66,11 @@ nav {
     border-bottom: 3px solid #C46134;
     margin-bottom: -3px;
 }
+
 .nav-item-mobile {
-	display: none !important;
+    display: none !important;
 }
+
 .header-text-main {
     font-weight: 600;
     font-size: 2.5rem;
@@ -245,21 +249,23 @@ nav {
 
 @media screen and (max-width: 1730px) {
     .team {
-    	padding: 60px 0px 55px 0px;
-	}
+        padding: 60px 0px 55px 0px;
+    }
 }
 
 @media screen and (max-width: 1540px) {
-	.team-role {
-		margin-left: 5px !important;
-		padding: 10px 15px !important;
-	}
+    .team-role {
+        margin-left: 5px !important;
+        padding: 10px 15px !important;
+    }
 }
 
 @media screen and (max-width: 1540px) {
-	.registration-form-item input, .registration-form-select {
-		width: 420px !important;
-	}
+
+    .registration-form-item input,
+    .registration-form-select {
+        width: 420px !important;
+    }
 }
 
 @media screen and (max-width: 1400px) {
@@ -309,45 +315,58 @@ nav {
     form input {
         width: 170px !important;
     }
+
     .registration-container {
-    	padding: 0px 70px;
+        padding: 0px 70px;
     }
 }
+
 @media screen and (max-width: 1045px) {
-	.footer-logo {
-		display: none !important;
-	}
-	.footer-item {
-		margin-right: 0;
-	}
-	.footer-item-container {
-		justify-content: space-between;
-	}
+    .footer-logo {
+        display: none !important;
+    }
+
+    .footer-item {
+        margin-right: 0;
+    }
+
+    .footer-item-container {
+        justify-content: space-between;
+    }
 }
+
 @media screen and (max-width: 1015px) {
-	.registration-form-item {
-		display: flex;
-		justify-content: center;
-	}
-	.registration-btn {
-		margin: 0px auto;
-	}
-	.registration-caption {
-		text-align: center;
-	}
-	.registration {
-		padding-bottom: 100px;		
-	}
-	.footer-item-img {
-		width: 50px;
-		height: 50px;
-	}
+    .registration-form-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .registration-btn {
+        margin: 0px auto;
+    }
+
+    .registration-caption {
+        text-align: center;
+    }
+
+    .registration {
+        padding-bottom: 100px;
+    }
+
+    .footer-item-img {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 995px) {
     nav {
-        padding: 0px 40px !important;
+        padding: 0px 15px !important;
         justify-content: space-between !important;
+    }
+
+    .navbar-toggler {
+        padding-right: 0px;
     }
 }
 
@@ -364,139 +383,214 @@ nav {
         border-bottom: none;
         margin-bottom: 25px;
     }
+
     .navbar-nav {
-       padding-top: 25px !important;
+        padding-top: 25px !important;
     }
+
     .search-img {
-    	margin-right: 10px !important;
+        margin-right: 10px !important;
     }
+
     .footer-item-img {
-    	margin-right: 10px;
+        margin-right: 10px;
     }
+
     .footer {
-    	padding: 30px 30px;
+        padding: 30px 30px;
     }
+
     .nav-item-mobile {
-		display: flex !important;
-		align-items: center;
-		margin-bottom: 10px;
-		margin-top: 10px;		
-	}
-	.nav-item-mobile img {
-		width: 30px;
-		height: 30px;
-	}
-	.discord-caption-mobile {
-		font-size: 1.25rem;
-	}
+        display: flex !important;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .nav-item-mobile img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .discord-caption-mobile {
+        font-size: 1.25rem;
+    }
 }
 
 @media screen and (max-width: 724px) {
-	.carousel-inner, .carousel-item img {
-		width: 580px;
-		height: 380px;
-	}
-	.header-text-main {
+
+    .carousel-inner,
+    .carousel-item img {
+        width: 580px;
+        height: 380px;
+    }
+
+    .header-text-main {
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 620px) {
-	.carousel-inner, .carousel-item img {
-		width: 480px;
-		height: 280px;
-	}
+
+    .carousel-inner,
+    .carousel-item img {
+        width: 480px;
+        height: 280px;
+    }
+
+    .carousel-indicators {
+        margin: 15px 20px;
+    }
+
+    .team {
+        padding-bottom: 30px;
+    }
+
     .team-item {
-    	justify-content: flex-start !important;
-    	padding-left: 15px;
-	}
-	.team-caption {
-		margin-left: 15px;
-	}
-	.registration-caption {
-		font-size: 1.5rem;
-	}
-	.footer-item-img {
-		width: 30px;
-		height: 30px;
-	}
-	.discord-caption {
-		font-size: 1.5rem;
-	}
-	.vk-link {
-		font-size: 0.6875rem;
-	}
+        justify-content: flex-start !important;
+        padding-left: 15px;
+        margin-bottom: 40px;
+    }
+
+    .team-caption {
+        margin-left: 15px;
+    }
+
+    .team-container {
+        padding-top: 60px;
+    }
+
+    .registration-caption {
+        font-size: 1.5rem;
+    }
+
+    .footer-item-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .discord-caption {
+        font-size: 1.5rem;
+    }
+
+    .vk-link {
+        font-size: 0.6875rem;
+    }
 }
 
 @media screen and (max-width: 540px) {
-	.carousel-inner, .carousel-item img {
-		width: 320px;
-		height: 230px;
-	}
-	.header-text-main {
+
+    .carousel-inner,
+    .carousel-item img {
+        width: 320px;
+        height: 230px;
+    }
+
+    .header-text-main {
         font-size: 1.4375rem;
         line-height: 2rem;
     }
+
     .team-item {
-    	font-size: 0.9rem;
+        font-size: 0.9rem;
     }
+
     .team-role {
-    	font-size: 0.6rem;
+        font-size: 0.6rem;
     }
+
     .team-item-avatar-container {
-    	padding: 0px;
+        padding: 0px;
     }
+
     .team-roles-container {
-    	align-items: center;
+        align-items: center;
     }
+
     .more-img {
-    	width: 20px;
-    	height: 20px;
-    	margin-left: 10px !important;
+        width: 20px;
+        height: 20px;
+        margin-left: 10px !important;
     }
-    .registration-form-item input, .registration-form-select {
-		width: 340px !important;
-		height: 50px !important;
-	}
-	.registration-btn-mobile {
-		display: flex !important;
-	}
-	.registration-btn-desktop {
-		display: none !important;
-	}
-	.registration-container {
-		padding: 0px 15px;
-	}
-	.footer {
-    	padding: 15px 15px;
+
+    .registration-form-item input,
+    .registration-form-select {
+        width: 340px !important;
+        height: 50px !important;
     }
+
+    .registration-form-select {
+        padding: 0px 25px 0px 25px;
+    }
+
+
+    .registration-form-select-wrapper:after {
+        top: 25%;
+        right: 1.5rem;
+    }
+
+    .registration-btn-mobile {
+        display: flex !important;
+    }
+
+    .registration-btn-desktop {
+        display: none !important;
+    }
+
+    .registration-container {
+        padding: 0px 15px;
+    }
+
+    .footer {
+        padding: 15px 15px;
+    }
+
     .discord-caption {
-		font-size: 1.3rem;
-	}
-	.team-item-avatar-container img {
-		width: 50px;
-		height: 50px;
-	}
+        font-size: 1.3rem;
+    }
+
+    .team-item-avatar-container img {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 395px) {
-	.header-item-container {
+    .header-item-container {
         padding: 0px 25px !important;
     }
+
     .team-roles-container {
-    	padding-left: 5px !important;
+        padding-left: 5px !important;
     }
+
     .team {
-    	padding-right: 5px;
-	}
-	.registration-btn-mobile {
-		width: 192px;
-		height: 48px;
-	}
-	.registration {
-		padding-bottom: 50px;
-	}
-	.footer-item-img {
-    	margin-right: 5px;
+        padding-right: 15px;
+    }
+
+    .registration-btn-mobile {
+        width: 192px;
+        height: 48px;
+    }
+
+    .registration {
+        padding-bottom: 50px;
+    }
+
+    .footer-item-img {
+        margin-right: 5px;
+    }
+
+    .team-role {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+    .registration-form-item input,
+    .registration-form-select {
+        width: 300px !important;
+        height: 40px !important;
     }
 }
