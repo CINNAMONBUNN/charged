@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <section class="container-fluid header-wrapper p-0 d-flex justify-content-center">
+    <section class="container-fluid header-wrapper p-0 d-flex justify-content-center" id="header-section">
         <header class="header pt-5">
-            <nav class="navbar navbar-expand-lg p-0">
+            <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="main.html">
                     <img src="icons/battery 1.svg" alt="Charged">
                     <img src="icons/Charged.svg" alt="Charged" class="mt-2 ml-1">
@@ -27,31 +27,44 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto d-flex justify-content-between">
                         <li class="nav-item active">
-                            <a class="nav-link" href="main.html">Главная</a>
+                            <a class="nav-link" href="#header-section">Главная</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="catalogue.html">Команда</a>
+                            <a class="nav-link" href="#team-section">Команда</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="blog.html">Запрос в клан</a>
+                            <a class="nav-link" href="#registration-section">Запрос в клан</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="contacts.html">Контакты</a>
+                            <a class="nav-link" href="#footer-section">Контакты</a>
                         </li>
+
+
+                        <div class="footer-item nav-item-mobile d-flex align-items-center">
+                            <img src="icons/discord.svg" alt="discord" class="footer-item-img">
+                            <span class="discord-caption discord-caption-mobile font-weight-bold">Discord</span>
+                        </div>
+
+                        <div class="footer-item nav-item-mobile d-flex align-items-center">
+                            <img src="icons/VK.svg" alt="VK" class="footer-item-img">
+                            <a href="https://vk.com/zaryazhennost" class="vk-link">https://vk.com/zaryazhennost</a>
+                        </div>
+
+
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
-                        <img src="icons/search.svg" alt="search" class="mr-4">
+                        <img src="icons/search.svg" alt="search" class="search-img mr-4">
                         <input class="form-control" type="search" placeholder="Поиск..." aria-label="Search">
                     </form>
                 </div>
             </nav>
-            <div class="row d-flex justify-content-between">
-                <div class="col">
+            <div class="row d-flex justify-content-between header-item-container">
+                <div class="col-12 col-xl-6 header-item">
                     <p class="header-text-main">Вступай в ряды лучших и стань примером</p>
                     <p class="header-text">Вступайте в начинающий, но уже набирающий обороты клан. С каждым днем мы становимся сильнее и тебе решать станешь ли ты чемпионом</p>
                     <button class="header-btn btn">Подать заявку</button>
                 </div>
-                <div class="col">
+                <div class="col-12 col-xl-6 header-item m-0">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -60,13 +73,13 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/slider1.png" class="d-block w-100" alt="slider">
+                                <img src="img/slider1.png" class="d-block" alt="slider">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider2.png" class="d-block w-100" alt="slider">
+                                <img src="img/slider2.png" class="d-block" alt="slider">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider3.png" class="d-block w-100" alt="slider">
+                                <img src="img/slider3.png" class="d-block" alt="slider">
                             </div>
                         </div>
                     </div>
@@ -79,17 +92,17 @@
             <img src="icons/Vector 1.svg" alt="down">
         </div>
     </div>
-    <section class="team">
+    <section class="team" id="team-section">
         <div class="container-fluid d-flex justify-content-center">
             <div class="row team-container">
                 <h2 class="font-weight-bold team-caption">Наша команда</h2>
                 <div class="w-100"></div>
-                <div class="col">
+                <div class="col-xl-6 col-md-12">
                     <div class="team-item row d-flex justify-content-center">
-                        <div class="col-2 d-flex align-items-start">
+                        <div class="team-item-avatar-container col-2 d-flex align-items-start">
                             <img src="img/ava4.png" alt="avatar">
                         </div>
-                        <div class="col-7">
+                        <div class="col-10 col-md-7">
                             <p class="lead">Руслан Бондаренко</p>
                             <p>Добрый, хороший, отзывчивый человек. Приятен во всем. Не зависимо от того как он играет, он сможет вытащить катку в нужный момент. За это ему лично и благодарны.</p>
                             <div class="row team-roles-container pl-3">
@@ -98,56 +111,56 @@
                                     Майор Пейн
                                 </div>
                                 <div class="ml-3 team-role team-role-admin">Администратор</div>
-                                <img src="icons/more-horizontal.svg" alt="more" class="ml-4">
+                                <img src="icons/more-horizontal.svg" alt="more" class="more-img ml-4">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-xl-6 col-md-12">
                     <div class="team-item row d-flex justify-content-center">
-                        <div class="col-2 d-flex align-items-start">
+                        <div class="team-item-avatar-container col-2 d-flex align-items-start">
                             <img src="img/ava1.png" alt="avatar">
                         </div>
-                        <div class="col-7">
+                        <div class="col-10 col-md-7">
                             <p class="lead">Руслан Гительманов</p>
                             <p>Пусть его статистика и не дает многое, за то отыгрывает прилично. Отличный штурмовик и хороший медик. Не горит, если проигрывает или плохо отыгрывает на статистику. Добрый и приятен в общении.</p>
                             <div class="row team-roles-container pl-3">
                                 <div class="team-role team-role-leader">Глава</div>
                                 <div class="ml-3 team-role team-role-admin">Администратор</div>
-                                <img src="icons/more-horizontal.svg" alt="more" class="ml-4">
+                                <img src="icons/more-horizontal.svg" alt="more" class="more-img ml-4">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-100"></div>
-                <div class="col">
+                <div class="col-xl-6 col-md-12">
                     <div class="team-item row d-flex justify-content-center">
-                        <div class="col-2 d-flex align-items-start">
+                        <div class="team-item-avatar-container col-2 d-flex align-items-start">
                             <img src="img/ava3.png" alt="avatar">
                         </div>
-                        <div class="col-7">
+                        <div class="col-10 col-md-7">
                             <p class="lead">Егор Калашников</p>
                             <p>Своеобразная личность. Никогда не знаешь, что от него ожидать. Хороший медик, настреливает в 1.0 и ресает под дымом. Да, может и бывает плох в игре, зато хорош в жизни.</p>
                             <div class="row team-roles-container pl-3">
                                 <div class="team-role team-role-assistant">Зам. главы</div>
                                 <div class="ml-3 team-role team-role-admin">Администратор</div>
-                                <img src="icons/more-horizontal.svg" alt="more" class="ml-4">
+                                <img src="icons/more-horizontal.svg" alt="more" class="more-img ml-4">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-xl-6 col-md-12">
                     <div class="team-item row d-flex justify-content-center">
-                        <div class="col-2 d-flex align-items-start">
+                        <div class="team-item-avatar-container col-2 d-flex align-items-start">
                             <img src="img/ava2.png" alt="avatar">
                         </div>
-                        <div class="col-7">
+                        <div class="col-10 col-md-7">
                             <p class="lead">Роман Ушаков</p>
                             <p>Довольно сильный игрок. Отличный инженер, даёт неплохие хеды и размены. Он очень хороший координатор и друг. Бывает дерзок с остальными, лишь потому что не любит проигрывать.</p>
                             <div class="row team-roles-container pl-3">
                                 <div class="team-role team-role-caca">Цаца</div>
                                 <div class="ml-3 team-role team-role-admin">Администратор</div>
-                                <img src="icons/more-horizontal.svg" alt="more" class="ml-4">
+                                <img src="icons/more-horizontal.svg" alt="more" class="more-img ml-4">
                             </div>
                         </div>
                     </div>
@@ -155,11 +168,11 @@
             </div>
         </div>
     </section>
-    <section class="registration">
+    <section class="registration" id="registration-section">
         <div class="container-fluid registration-container">
             <h2 class="registration-caption">Оформление заявки в клан</h2>
             <form class="row registration-form">
-                <div class="col-5">
+                <div class="col col-xl-5">
                     <div class="registration-form-item">
                         <label>
                             <p>Ваш никнейм:</p>
@@ -184,7 +197,7 @@
                         <label>
                             <p>Какой у вас онлайн:</p>
                             <div class="registration-form-select-wrapper">
-                                <select class="registration-form-select">                                    
+                                <select class="registration-form-select">
                                     <option value="#">Редкий (до 3 часов)</option>
                                     <option value="#">Очень редкий (до 1 часа)</option>
                                     <option value="#">Частый (от 3 часов)</option>
@@ -192,36 +205,31 @@
                             </div>
                         </label>
                     </div>
-                        <div class="registration-form-item">
+                    <div class="registration-form-item">
                         <label>
                             <p>Ваш Discord:</p>
                             <input type="text" placeholder="monashka#2548">
                         </label>
                     </div>
-                    <button class="registration-btn btn d-flex justify-content-center align-items-center">Отправить заявку</button>
+                    <button class="registration-btn registration-btn-desktop btn d-flex justify-content-center align-items-center">Отправить заявку</button>
+                    <button class="registration-btn registration-btn-mobile btn d-none justify-content-center align-items-center">Отправить</button>
                 </div>
             </form>
         </div>
     </section>
-    <footer class="footer container-fluid">
+    <footer class="footer container-fluid" id="footer-section">
         <div class="row d-flex justify-content-between align-items-center">
-            <div class="col d-flex">
-
-
+            <div class="footer-item-container col d-flex">
                 <div class="footer-item d-flex align-items-center">
                     <img src="icons/discord.svg" alt="discord" class="footer-item-img">
-                    <span class="discord-caption font-weight-bold">Discord</span>                    
-                </div> 
-
+                    <span class="discord-caption font-weight-bold">Discord</span>
+                </div>
                 <div class="footer-item d-flex align-items-center">
                     <img src="icons/VK.svg" alt="VK" class="footer-item-img">
                     <a href="https://vk.com/zaryazhennost" class="vk-link">https://vk.com/zaryazhennost</a>
                 </div>
-
-
-
             </div>
-            <div class="col d-flex justify-content-end">
+            <div class="col d-flex justify-content-end footer-logo">
                 <a href="main.html">
                     <img src="icons/battery 1.svg" alt="Charged">
                     <img src="icons/Charged.svg" alt="Charged" class="mt-2 ml-1">
