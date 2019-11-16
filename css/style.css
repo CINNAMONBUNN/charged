@@ -92,6 +92,11 @@ nav {
     border-radius: 100px;
 }
 
+.carousel-inner img {
+	width: 660px;
+	height: 465px;
+}
+
 .down-item {
     position: absolute;
     width: 72px;
