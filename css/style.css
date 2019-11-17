@@ -37,8 +37,10 @@ input[type="text"]:focus {
 }
 
 .header-wrapper {
-    background: url(../img/header.png);
+	position: relative;
+    background-image: url(../img/header1.jpg);
 }
+
 
 .header {
     max-width: 1300px;
@@ -117,7 +119,9 @@ nav {
 .team-item {
     margin-bottom: 130px;
 }
-
+.team-item-avatar-container img {
+	border-radius: 50%;
+}
 .team-container {
     max-width: 1700px;
     padding-top: 67px;
@@ -174,7 +178,7 @@ nav {
     color: #fff;
     background-size: cover;
     background-position: center;
-    background-image: url(../img/footer2.png), url(../img/footer.png);
+    background-image: url(../img/footer3.png);
     background-repeat: no-repeat;
     padding-top: 55px;
     padding-bottom: 200px;
