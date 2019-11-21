@@ -236,9 +236,6 @@ nav {
     padding: 60px 120px;
 }
 
-.footer-item {
-    margin-right: 70px;
-}
 
 .footer-item-img {
 	width: 68px;
@@ -250,7 +247,7 @@ nav {
     font-size: 2.5rem;
 }
 
-.vk-link:hover {
+a:hover {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -590,6 +587,9 @@ nav {
 
     .team-role {
         margin-bottom: 15px;
+    }
+    .vk-link {
+        font-size:0.8rem;
     }
 }
 
